@@ -1,0 +1,146 @@
+[15Aug2025 13:47:52.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Misterforgetful\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.2, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, -mixin.config=tinkersdiving.mixins.json, --mixin.config, tinkersdiving.mixins.json]
+[15Aug2025 13:47:52.239] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[15Aug2025 13:47:52.564] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[15Aug2025 13:47:52.706] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[15Aug2025 13:47:53.197] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[15Aug2025 13:47:53.416] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Misterforgetful/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[15Aug2025 13:47:53.431] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Arc(TM) Graphics GL version 4.6.0 - Build 32.0.101.6556, Intel
+[15Aug2025 13:47:54.349] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Misterforgetful\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.2\69932762bf197a54e59c5beb40e2a796cb7b0344\javafmllanguage-1.20.1-47.4.2.jar is missing mods.toml file
+[15Aug2025 13:47:54.363] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Misterforgetful\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.2\558f84c8439daeb45b9d72391572781e8d52039f\lowcodelanguage-1.20.1-47.4.2.jar is missing mods.toml file
+[15Aug2025 13:47:54.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Misterforgetful\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.2\b861aade365eff21af88b465e5fb32b643b2db4d\mclanguage-1.20.1-47.4.2.jar is missing mods.toml file
+[15Aug2025 13:47:54.373] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Misterforgetful\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.2\e64efc556f126e900f6656987f2641f639b7a3e2\fmlcore-1.20.1-47.4.2.jar is missing mods.toml file
+[15Aug2025 13:47:55.063] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras. Using Mod File: C:\Users\Misterforgetful\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-forge\0.4.1\5c35573a7b76103724799ca1174a69699b8a9aec\mixinextras-forge-0.4.1.jar
+[15Aug2025 13:47:55.064] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: flywheel. Using Mod File: C:\Users\Misterforgetful\.gradle\caches\forge_gradle\deobf_dependencies\dev\engine-room\flywheel\flywheel-forge-1.20.1\1.0.4_mapped_official_1.20.1\flywheel-forge-1.20.1-1.0.4_mapped_official_1.20.1.jar
+[15Aug2025 13:47:55.064] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ponder. Using Mod File: C:\Users\Misterforgetful\.gradle\caches\forge_gradle\deobf_dependencies\net\createmod\ponder\Ponder-Forge-1.20.1\1.0.78_mapped_official_1.20.1\Ponder-Forge-1.20.1-1.0.78_mapped_official_1.20.1.jar
+[15Aug2025 13:47:55.065] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[15Aug2025 13:47:58.538] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by tinkersdiving.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[15Aug2025 13:47:58.540] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[15Aug2025 13:47:58.564] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Misterforgetful\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[15Aug2025 13:47:58.809] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[15Aug2025 13:47:58.815] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[15Aug2025 13:47:58.844] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[15Aug2025 13:47:58.845] [main/INFO] [mixin/]: Selecting config tinkersdiving.mixins.json
+[15Aug2025 13:47:58.856] [main/WARN] [mixin/]: Reference map 'tinkersdiving.refmap.json' for tinkersdiving.mixins.json could not be read. If this is a development environment you can ignore this message
+[15Aug2025 13:47:58.862] [main/INFO] [mixin/]: Selecting config mixinextras.init.mixins.json
+[15Aug2025 13:47:59.195] [main/INFO] [mixin/]: Selecting config flywheel.backend.mixins.json
+[15Aug2025 13:47:59.533] [main/INFO] [mixin/]: Remapping refMap backend-flywheel.refmap.json using C:\Users\Misterforgetful\Projects\tinkersdiving\build\createSrgToMcp\output.srg
+[15Aug2025 13:47:59.534] [main/INFO] [mixin/]: Selecting config flywheel.impl.mixins.json
+[15Aug2025 13:47:59.536] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\Misterforgetful\Projects\tinkersdiving\build\createSrgToMcp\output.srg
+[15Aug2025 13:47:59.536] [main/INFO] [mixin/]: Selecting config ponder.mixins.json
+[15Aug2025 13:47:59.539] [main/INFO] [mixin/]: Remapping refMap ponder.refmap.json using C:\Users\Misterforgetful\Projects\tinkersdiving\build\createSrgToMcp\output.srg
+[15Aug2025 13:47:59.539] [main/INFO] [mixin/]: Selecting config ponder-common.mixins.json
+[15Aug2025 13:47:59.540] [main/INFO] [mixin/]: Remapping refMap ponder.refmap.json using C:\Users\Misterforgetful\Projects\tinkersdiving\build\createSrgToMcp\output.srg
+[15Aug2025 13:47:59.540] [main/INFO] [mixin/]: Selecting config create.mixins.json
+[15Aug2025 13:47:59.545] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\Misterforgetful\Projects\tinkersdiving\build\createSrgToMcp\output.srg
+[15Aug2025 13:47:59.545] [main/INFO] [mixin/]: Preparing tinkersdiving.mixins.json (4)
+[15Aug2025 13:47:59.632] [main/INFO] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[15Aug2025 13:47:59.633] [main/INFO] [mixin/]: Preparing flywheel.backend.mixins.json (8)
+[15Aug2025 13:47:59.734] [main/INFO] [mixin/]: Preparing flywheel.impl.mixins.json (15)
+[15Aug2025 13:48:00.291] [main/INFO] [mixin/]: Preparing ponder.mixins.json (1)
+[15Aug2025 13:48:00.296] [main/INFO] [mixin/]: Preparing ponder-common.mixins.json (6)
+[15Aug2025 13:48:00.328] [main/INFO] [mixin/]: Preparing create.mixins.json (47)
+[15Aug2025 13:48:00.448] [main/WARN] [mixin/]: Error loading class: journeymap/client/ui/fullscreen/Fullscreen (java.lang.ClassNotFoundException: journeymap.client.ui.fullscreen.Fullscreen)
+[15Aug2025 13:48:00.448] [main/WARN] [mixin/]: @Mixin target journeymap.client.ui.fullscreen.Fullscreen was not found create.mixins.json:compat.JourneyFullscreenMapMixin
+[15Aug2025 13:48:00.517] [main/INFO] [mixin/]: Prepared 80 mixins in 1.671 sec (20.9ms avg) (0ms load, 0ms transform, 0ms plugin)
+[15Aug2025 13:48:00.607] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[15Aug2025 13:48:00.657] [main/INFO] [mixin/]: Mixing MinecraftMixin from flywheel.impl.mixins.json into net.minecraft.client.Minecraft
+[15Aug2025 13:48:00.713] [main/INFO] [mixin/]: Mixing client.WindowResizeMixin from ponder-common.mixins.json into net.minecraft.client.Minecraft
+[15Aug2025 13:48:02.349] [main/INFO] [mixin/]: Mixing accessor.SystemReportAccessor from create.mixins.json into net.minecraft.SystemReport
+[15Aug2025 13:48:02.351] [main/INFO] [mixin/]: Renaming @Accessor method getOPERATING_SYSTEM()Ljava/lang/String; to getOPERATING_SYSTEM_$md$06431c$0 in create.mixins.json:accessor.SystemReportAccessor
+[15Aug2025 13:48:02.359] [main/INFO] [mixin/]: Renaming @Accessor method getJAVA_VERSION()Ljava/lang/String; to getJAVA_VERSION_$md$06431c$1 in create.mixins.json:accessor.SystemReportAccessor
+[15Aug2025 13:48:03.525] [pool-4-thread-1/INFO] [mixin/]: Mixing BuiltInRegistriesMixin from create.mixins.json into net.minecraft.core.registries.BuiltInRegistries
+[15Aug2025 13:48:03.527] [pool-4-thread-1/INFO] [mixin/]: Renaming synthetic method lambda$create$ourRegistriesAreNotEmpty$0(Ljava/util/function/Consumer;Lnet/minecraft/core/Registry;)V to md06431c$lambda$create$ourRegistriesAreNotEmpty$0$0 in create.mixins.json:BuiltInRegistriesMixin
+[15Aug2025 13:48:03.535] [pool-4-thread-1/INFO] [mixin/]: Mixing accessor.BuiltInRegistriesAccessor from create.mixins.json into net.minecraft.core.registries.BuiltInRegistries
+[15Aug2025 13:48:03.535] [pool-4-thread-1/INFO] [mixin/]: Renaming @Accessor method create$getWRITABLE_REGISTRY()Lnet/minecraft/core/WritableRegistry; to create$getWRITABLE_REGISTRY_$md$06431c$1 in create.mixins.json:accessor.BuiltInRegistriesAccessor
+[15Aug2025 13:48:03.758] [pool-4-thread-1/INFO] [mixin/]: Mixing accessor.StateHolderAccessor from create.mixins.json into net.minecraft.world.level.block.state.StateHolder
+[15Aug2025 13:48:03.869] [pool-4-thread-1/INFO] [mixin/]: Mixing accessor.EntityAccessor from ponder-common.mixins.json into net.minecraft.world.entity.Entity
+[15Aug2025 13:48:03.876] [pool-4-thread-1/INFO] [mixin/]: Mixing client.EntityContraptionInteractionMixin from create.mixins.json into net.minecraft.world.entity.Entity
+[15Aug2025 13:48:03.879] [pool-4-thread-1/FATAL] [MixinProcessor/]: /**************************************************************************************************************************************************************************/
+[15Aug2025 13:48:03.880] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*                                                                             Invalid Mixin                                                                              */
+[15Aug2025 13:48:03.880] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+[15Aug2025 13:48:03.880] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     Action : APPLY                                                                                                                                                     */
+[15Aug2025 13:48:03.881] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*      Mixin : com.simibubi.create.foundation.mixin.client.EntityContraptionInteractionMixin                                                                             */
+[15Aug2025 13:48:03.881] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     Config : create.mixins.json                                                                                                                                        */
+[15Aug2025 13:48:03.881] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*      Phase : DEFAULT                                                                                                                                                   */
+[15Aug2025 13:48:03.881] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+[15Aug2025 13:48:03.881] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException                                                                                           */
+[15Aug2025 13:48:03.881] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+[15Aug2025 13:48:03.881] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     @Shadow method m_6059_ in create.mixins.json:client.EntityContraptionInteractionMixin was not located in the target class net.minecraft.world.entity.Entity.       */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     Using refmap create.refmap.json                                                                                                                                    */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method m_6059_ in                                                                */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     create.mixins.json:client.EntityContraptionInteractionMixin was not located in the target class net.minecraft.world.entity.Entity. Using refmap                    */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*     create.refmap.json                                                                                                                                                 */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:442) */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:415)  */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:343)       */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:302)              */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:280)    */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288)                                   */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:292)                   */
+[15Aug2025 13:48:03.882] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)                             */
+[15Aug2025 13:48:03.883] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)                       */
+[15Aug2025 13:48:03.883] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)                               */
+[15Aug2025 13:48:03.883] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)                        */
+[15Aug2025 13:48:03.883] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)    */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)                       */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)             */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)                         */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)                                            */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)                */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)                                                              */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)                                                        */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)                                                             */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)                                                                  */
+[15Aug2025 13:48:03.884] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)                                                                  */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)                                                                                                */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         TRANSFORMER/forge@47.4.2/net.minecraftforge.registries.GameData.init(GameData.java:109)                                                                        */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         TRANSFORMER/forge@47.4.2/net.minecraftforge.registries.GameData.<clinit>(GameData.java:95)                                                                     */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         TRANSFORMER/minecraft@1.20.1/net.minecraft.core.registries.BuiltInRegistries.forge(BuiltInRegistries.java:429)                                                 */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         TRANSFORMER/minecraft@1.20.1/net.minecraft.core.registries.BuiltInRegistries.forge(BuiltInRegistries.java:409)                                                 */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         TRANSFORMER/minecraft@1.20.1/net.minecraft.core.registries.BuiltInRegistries.<clinit>(BuiltInRegistries.java:121)                                              */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         TRANSFORMER/minecraft@1.20.1/net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:43)                                                                       */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         TRANSFORMER/minecraft@1.20.1/net.minecraft.client.main.Main.lambda$main$0(Main.java:151)                                                                       */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)                                                                              */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)                                                                                             */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)                                                                      */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)                                                                      */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /*         java.base/java.lang.Thread.run(Thread.java:840)                                                                                                                */
+[15Aug2025 13:48:03.885] [pool-4-thread-1/FATAL] [MixinProcessor/]: /**************************************************************************************************************************************************************************/
+[15Aug2025 13:48:03.886] [pool-4-thread-1/FATAL] [mixin/]: Mixin apply failed create.mixins.json:client.EntityContraptionInteractionMixin -> net.minecraft.world.entity.Entity: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method m_6059_ in create.mixins.json:client.EntityContraptionInteractionMixin was not located in the target class net.minecraft.world.entity.Entity. Using refmap create.refmap.json
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method m_6059_ in create.mixins.json:client.EntityContraptionInteractionMixin was not located in the target class net.minecraft.world.entity.Entity. Using refmap create.refmap.json
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:442) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:415) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:343) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:302) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:280) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:292) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.registries.GameData.init(GameData.java:109) ~[forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.registries.GameData.<clinit>(GameData.java:95) ~[forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.forge(BuiltInRegistries.java:429) ~[forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.forge(BuiltInRegistries.java:409) ~[forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.<clinit>(BuiltInRegistries.java:121) ~[forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:43) ~[forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.main.Main.lambda$main$0(Main.java:151) ~[forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]

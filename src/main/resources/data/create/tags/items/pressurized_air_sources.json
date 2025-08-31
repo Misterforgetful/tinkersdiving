@@ -1,0 +1,7 @@
+{   
+    "values": [
+        "#tconstruct:modifiable/armor/chestplate",
+        "create:copper_backtank",
+        "create:netherite_backtank"
+    ]
+}

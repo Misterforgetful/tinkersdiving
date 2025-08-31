@@ -1,0 +1,8 @@
+{
+  "modifier": "tinkersdiving:backtank",
+  "name": "modifier.tinkersdiving.backtank",
+  "description": "modifier.tinkersdiving.backtank.desc",
+  "flavor": "modifier.tinkersdiving.backtank.flavor",
+  "levels": 6,
+  "slot": "armor.chest"
+}

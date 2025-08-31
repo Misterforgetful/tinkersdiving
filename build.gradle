@@ -1,0 +1,108 @@
+
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.23'
+    id 'java'
+    id 'maven-publish'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+
+group = 'com.example'
+version = '0.2.1.1'
+archivesBaseName = 'tinkersdiving'
+
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+def refmap
+mixin {
+    refmap = add(sourceSets.main, "tinkersdiving.refmap.json")
+    config "tinkersdiving.mixins.json"
+}
+
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run/client')
+            jvmArgs "-Dmixin.debug.export=true", "-Dmixin.debug.verbose=true"
+            args "-mixin.config=tinkersdiving.mixins.json"
+            property("mixin.env.remapRefMap", "true")
+            property("mixin.env.refMapRemappingFile", "${projectDir}/build/createSrgToMcp/output.srg")
+        }
+        server {
+            workingDirectory project.file('run/server')
+        }
+    }
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+}
+
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+    mavenLocal()
+    maven { url = 'https://maven.minecraftforge.net/' } // ForgeGradle repo
+    maven { url = 'https://maven.blamejared.com/' } // Tinkers' Construct repo
+    maven { url = 'https://cursemaven.com' } // CurseForge mirror
+    maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
+    maven { url = "https://maven.ithundxr.dev/mirror" } // Registrate
+    maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" } // ForgeConfigAPIPort
+    maven { url = 'https://maven.tterrag.com/' }
+    maven { url = 'https://cursemaven.com/' }
+
+
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += [
+        "-Amixin.refmap=tinkersdiving.refmap.json",
+        "-AreobfSrg=true"
+    ]
+}
+
+
+dependencies {
+  minecraft 'net.minecraftforge:forge:1.20.1-47.4.2'
+    implementation files('libs/create-1.20.1-6.0.5.jar')
+    implementation files('libs/Mantle-1.20.1-1.11.63.jar')
+    implementation files('libs/TConstruct-1.20.1-3.10.1.76.jar')
+    compileOnly files('libs/TConstruct-1.20.1-3.10.1.76-sources.jar')
+    compileOnly files('libs/create-1.20.1-6.0.5-140-sources.jar')
+    compileOnly files('libs/Mantle-1.20.1-1.11.DEV.2fda3e39.jar')
+    compileOnly files('libs/Mantle-1.20.1-1.11.DEV.2fda3e39-sources.jar')
+    compileOnly(fg.deobf("dev.engine-room.flywheel:flywheel-forge-api-${minecraft_version}:${flywheel_version}"))
+    runtimeOnly(fg.deobf("dev.engine-room.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}"))
+    implementation(fg.deobf("net.createmod.ponder:Ponder-Forge-1.20.1:1.0.78"))
+    implementation("io.github.llamalad7:mixinextras-forge:${mixin_extras_version}")
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:${mixin_extras_version}"))
+
+    implementation("org.spongepowered:mixin:0.8.5")
+    annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
+    annotationProcessor("com.google.code.gson:gson:2.10.1")
+    annotationProcessor("com.google.guava:guava:32.1.2-jre")
+    annotationProcessor("org.ow2.asm:asm-tree:9.5")
+} 
+
+sourceSets.main {
+    resources {
+        srcDir("src/generated/resources")
+        exclude(".cache/")
+    }
+}
+
+
+jar {
+    manifest {
+        attributes(
+            "MixinConfigs": "tinkersdiving.mixins.json"
+        )
+    }
+}

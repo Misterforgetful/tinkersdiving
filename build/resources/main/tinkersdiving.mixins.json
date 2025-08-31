@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.example.tinkersdiving.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tinkersdiving.refmap.json",
+  "mixins": [
+    "DivingHelmetItemMixin",
+    "DivingBootsItemMixin",
+    "NetheriteDivingHandlerMixin",
+    "LavaSwimmingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

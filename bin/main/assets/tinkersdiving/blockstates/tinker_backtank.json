@@ -1,0 +1,7 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "tinkersdiving:block/tinker_backtank/tinker_backtank" }
+    }
+  ]
+}
