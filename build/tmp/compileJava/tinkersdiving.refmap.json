@@ -1,8 +1,5 @@
 {
   "mappings": {
-    "com/example/tinkersdiving/mixin/DivingHelmetItemMixin": {
-      "Lnet/minecraft/world/item/Item;isFireResistant()Z": "Lnet/minecraft/world/item/Item;m_41475_()Z"
-    },
     "com/example/tinkersdiving/mixin/LavaSwimmingMixin": {
       "travel(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
       "Lnet/minecraft/world/entity/LivingEntity;isInLava()Z": "Lnet/minecraft/world/entity/LivingEntity;m_20077_()Z",
@@ -11,9 +8,6 @@
   },
   "data": {
     "searge": {
-      "com/example/tinkersdiving/mixin/DivingHelmetItemMixin": {
-        "Lnet/minecraft/world/item/Item;isFireResistant()Z": "Lnet/minecraft/world/item/Item;m_41475_()Z"
-      },
       "com/example/tinkersdiving/mixin/LavaSwimmingMixin": {
         "travel(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
         "Lnet/minecraft/world/entity/LivingEntity;isInLava()Z": "Lnet/minecraft/world/entity/LivingEntity;m_20077_()Z",
