@@ -9,8 +9,8 @@ import com.simibubi.create.content.equipment.armor.DivingHelmetItem;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.event.entity.living.LivingBreatheEvent;
 
 import java.util.function.Predicate;
 
@@ -32,21 +32,23 @@ public class DivingHelmetItemMixin {
 		}
 	}
 
-	//@ModifyExpressionValue(
-	//	method = "breatheUnderwater",
-	//	at = @At(
-	//		value = "INVOKE",
-	//		target = "Lnet/minecraft/world/item/Item;isFireResistant()Z",
-	//		remap = true
-	//	),
-	//	remap = false
-	//)
-	//private static boolean tinkersdiving$modifyHelmetFireResistant(boolean original, Item item, ItemStack stack) {
-	//	if (NetheriteDivingHandler.isNetheriteArmor(stack)) {
-	//		return true;
-	//	}
-	//	return original;
-	//}
+	@ModifyExpressionValue(
+		method = "breatheUnderwater",
+		at = @At(
+			value = "INVOKE",
+			target = "Lnet/minecraft/world/item/Item;isFireResistant()Z",
+			remap = true
+		),
+		remap = false
+	)
+	private static boolean tinkersdiving$modifyHelmetFireResistant(boolean original, LivingBreatheEvent breath) {
+		ItemStack stack = DivingHelmetItem.getWornItem(breath.getEntity());
+		
+		if (NetheriteDivingHandler.isNetheriteArmor(stack)) {
+			return true;
+		}
+		return original;
+	}
 
 	@ModifyArg(
 		method = "breatheUnderwater",

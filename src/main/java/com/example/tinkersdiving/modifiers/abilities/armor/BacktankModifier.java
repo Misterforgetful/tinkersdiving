@@ -75,8 +75,10 @@ public class BacktankModifier extends Modifier{
 
     /**
      * Consumes air from the backtank item, returns true if successful.
-     */
-       public static void consumeAir(LivingEntity entity, ItemStack backtank, float i) {
+     * 
+     * I don't believe any of this is necessary, as Create's BacktankUtil already handles air consumption and warnings now that I'm using mixin.
+     *
+      public static void consumeAir(LivingEntity entity, ItemStack backtank, float i) {
       CompoundTag tag = backtank.getOrCreateTag();
       int maxAir = maxAir(backtank);
       float air = getAir(backtank);
@@ -174,6 +176,7 @@ public class BacktankModifier extends Modifier{
    public static boolean hasAirRemaining(ItemStack to) {
       return getAir(to) > 0.0F;
    }
+      */
 
    //@Override
    //public int getEnchantmentLevel(ItemStack tool, Enchantment enchantment) {
@@ -182,4 +185,28 @@ public class BacktankModifier extends Modifier{
    //   }
    //   return tool.getEnchantmentLevel(enchantment);
    //}
+   
+   
+   /*
+    * Apparently this isn't correct, but in case the other system fails me I'm keeping it here.
+    *
+   
+   @Override
+   public int getEnchantmentLevel(ItemStack stack, Enchantment enchantment) {
+      if (enchantment == AllEnchantments.CAPACITY.get()) {
+         ToolStack tool = ToolStack.from(stack);
+         return (int) Math.ceil((1200 * tool.getModifierLevel(this.getId())) / 900);
+      }
+      return 0;
+   }
+
+   @Override
+   public int getEnchantmentLevel(ToolStack tool, Enchantment enchantment) {
+      if (enchantment == (AllEnchantments.CAPACITY.get())) {
+         return (int) Math.ceil((1200 * tool.getModifierLevel(this.getId())) / 900);
+      }
+      return 0;
+   }
+   */
+
 }

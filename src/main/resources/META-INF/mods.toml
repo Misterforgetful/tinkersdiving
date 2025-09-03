@@ -4,12 +4,12 @@ license="MIT"
 
 [[mods]]
 modId="tinkersdiving"
-version="0.2.1.1"
+version="0.2.4.2"
 mixinConfigs=["tinkersdiving.mixins.json"]
 displayName="Tinker's Diving"
 description='''
 Adds Diving Helmet, Backtank, and Diving Boots modifiers to Tinkers’ armor,
-hooking into Create’s air & lava‐swim logic very jankily. Trust me, it can get a lot worse.
+hooking into Create’s air & lava‐swim logic.
 '''
 
 [[dependencies.tinkersdiving]]
