@@ -1,12 +1,13 @@
 package com.example.tinkersdiving;
 
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 
@@ -28,7 +29,7 @@ public class BacktankPlacementHandler{
             return InteractionResult.FAIL;
         }
 
-        player.level().setBlockAndUpdate(pos, TinkersDivingMod.TINKER_BACKTANK_BLOCK.get().defaultBlockState());
+        player.level().setBlockAndUpdate(pos, TinkersDivingMod.TINKER_BACKTANK_BLOCK.get().defaultBlockState()/*.setValue(TinkerBacktankBlock.FACING, player.getDirection().getOpposite())*/);
 
         BlockEntity be = player.level().getBlockEntity(pos);
         if (be instanceof TinkerBacktankBlockEntity) {

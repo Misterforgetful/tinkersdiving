@@ -8,7 +8,8 @@
     "DivingHelmetItemMixin",
     "DivingBootsItemMixin",
     "NetheriteDivingHandlerMixin",
-    "LavaSwimmingMixin"
+    "LavaSwimmingMixin",
+    "BacktankUtilMixin"
   ],
   "injectors": {
     "defaultRequire": 1

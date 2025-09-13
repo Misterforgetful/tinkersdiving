@@ -3,5 +3,6 @@
   "name": "modifier.tinkersdiving.diving_boots",
   "description": "modifier.tinkersdiving.diving_boots.desc",
   "flavor": "modifier.tinkersdiving.diving_boots.flavor",
+  "icon": "tinkersdiving:item/modifier/diving_boots",
   "slot": "armor.feet"
 }

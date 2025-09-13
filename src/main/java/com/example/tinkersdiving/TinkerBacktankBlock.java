@@ -19,6 +19,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
@@ -27,6 +28,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.common.util.FakePlayer;
@@ -45,11 +47,11 @@ import org.jetbrains.annotations.Nullable;
 
 public class TinkerBacktankBlock extends HorizontalKineticBlock implements EntityBlock {
     public static final BooleanProperty SHAFT = BooleanProperty.create("shaft");
-    public static final net.minecraft.world.level.block.state.properties.DirectionProperty FACING = net.minecraft.world.level.block.HorizontalDirectionalBlock.FACING;
+    public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
     public TinkerBacktankBlock() {
         super(Properties.of().mapColor(MapColor.METAL).strength(2.0f).noOcclusion());
-        this.registerDefaultState(this.stateDefinition.any().setValue(SHAFT, false));
+        this.registerDefaultState(this.stateDefinition.any().setValue(SHAFT, false).setValue(FACING, Direction.NORTH));
     }
 
     @Override

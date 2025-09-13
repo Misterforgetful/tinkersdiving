@@ -5,27 +5,18 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction.Axis;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.chat.Component.Serializer;
 import net.minecraft.util.Mth;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import slimeknights.tconstruct.library.tools.nbt.ToolStack;
-import net.minecraft.world.Nameable;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-import com.simibubi.create.AllBlocks;
-import com.simibubi.create.AllItems;
+
 import com.simibubi.create.AllSoundEvents;
-import com.simibubi.create.content.equipment.armor.BacktankItem;
 import com.simibubi.create.content.equipment.armor.BacktankUtil;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.foundation.advancement.AllAdvancements;
-import com.simibubi.create.foundation.advancement.CreateAdvancement;
 import com.simibubi.create.foundation.blockEntity.ComparatorUtil;
 import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
 import com.simibubi.create.foundation.particle.AirParticleData;
@@ -33,12 +24,10 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-import javax.annotation.Nonnull;
 
 import org.joml.Math;
 
 import com.example.tinkersdiving.modifiers.TinkersDivingModifiers;
-import com.example.tinkersdiving.modifiers.abilities.armor.BacktankModifier;
 
 public class TinkerBacktankBlockEntity extends KineticBlockEntity{
     private ItemStack chestplate = ItemStack.EMPTY;
@@ -118,7 +107,7 @@ public class TinkerBacktankBlockEntity extends KineticBlockEntity{
         return 1200 * Math.max(getModifierLevel(stack),1);
     }
     public int getComparatorOutput() {
-        int max = BacktankModifier.maxAir(this.chestplate);
+        int max = BacktankUtil.maxAir(this.chestplate);
         return ComparatorUtil.fractionToRedstoneLevel((double)((float)this.airLevel / (float)max));
    }
     public void addAir(int amount) {

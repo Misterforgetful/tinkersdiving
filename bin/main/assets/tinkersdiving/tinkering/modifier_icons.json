@@ -1,0 +1,5 @@
+{
+    "tinkersdiving:backtank":  "tinkersdiving:gui/modifiers/backtank",
+    "tinkersdiving:diving_helmet": "tinkersdiving:gui/modifiers/divingHelmet",
+    "tinkersdiving:diving_boots": "tinkersdiving:gui/modifiers/divingBoots"
+}

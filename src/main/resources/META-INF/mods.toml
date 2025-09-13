@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="tinkersdiving"
-version="0.2.4.2"
+version="0.3.0.1"
 mixinConfigs=["tinkersdiving.mixins.json"]
 displayName="Tinker's Diving"
 description='''

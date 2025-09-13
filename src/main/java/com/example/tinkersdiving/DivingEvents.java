@@ -28,7 +28,7 @@ public class DivingEvents {
   } 
 
 //At one point I was hardcoding the entire interaction system, until I was counseled to instead use mixin. 
-//This remains for nostalgia purposes or something, I don't actually know. 
+//This remains for nostalgia purposes or something, I don't actually know. Has no effect on the compiled version, so no harm in it.
 
 
 

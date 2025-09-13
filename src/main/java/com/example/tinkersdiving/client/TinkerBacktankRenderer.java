@@ -34,14 +34,15 @@ public class TinkerBacktankRenderer extends KineticBlockEntityRenderer<TinkerBac
 	@Override
 	protected void renderSafe(TinkerBacktankBlockEntity be, float partialTicks, PoseStack ms, MultiBufferSource buffer, int light, int overlay) {
 		super.renderSafe(be, partialTicks, ms, buffer, light, overlay);
-
+		float time = AnimationTickHolder.getRenderTime(be.getLevel());
+		
 		BlockState blockState = be.getBlockState();
 		SuperByteBuffer cogs = CachedBuffers.partial(getCogsModel(blockState), blockState);
 		cogs.center()
 			.rotateYDegrees(180 + AngleHelper.horizontalAngle(blockState.getValue(BacktankBlock.HORIZONTAL_FACING)))
 			.uncenter()
 			.translate(0, 6.5f / 16, 11f / 16)
-			.rotate(AngleHelper.rad(be.getSpeed() / 4f * AnimationTickHolder.getRenderTime(be.getLevel()) % 360),
+			.rotate(AngleHelper.rad(be.getSpeed() / 4f * time % 360),
 				Direction.EAST)
 			.translate(0, -6.5f / 16, -11f / 16);
 		cogs.light(light)
@@ -51,10 +52,11 @@ public class TinkerBacktankRenderer extends KineticBlockEntityRenderer<TinkerBac
 		SuperByteBuffer shaft = CachedBuffers.partial(getShaftModel(blockState), blockState);
 		shaft.center()
 			.rotateYDegrees(180 + AngleHelper.horizontalAngle(blockState.getValue(BacktankBlock.HORIZONTAL_FACING)))
-			.rotate(AngleHelper.rad(be.getSpeed() / 4f * AnimationTickHolder.getRenderTime(be.getLevel()) % 360), Direction.UP)
+			.rotate(AngleHelper.rad((time * be.getSpeed() * 3f / 10)% 360), Direction.UP)
 			.uncenter();
 		shaft.light(light)
 			.renderInto(ms, buffer.getBuffer(RenderType.cutout()));
+			
 	}
 
 	@Override
