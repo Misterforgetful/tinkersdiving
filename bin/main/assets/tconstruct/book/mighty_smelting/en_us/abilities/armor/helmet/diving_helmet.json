@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tinkersdiving:diving_helmet",
+  "text": [
+    {
+      "text": "The depths are calling."
+    }
+  ],
+  "effects": [
+    "Breathe underwater with a Backtank",
+    "See underwater regardless",
+    "Extends effects when combined with Netherite"
+  ]
+}

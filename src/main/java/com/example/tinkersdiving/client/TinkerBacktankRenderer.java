@@ -2,6 +2,9 @@ package com.example.tinkersdiving.client;
 import net.minecraft.core.Direction;
 
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.ItemDisplayContext;
 
 import com.example.tinkersdiving.TinkerBacktankBlockEntity;
 
@@ -52,11 +55,33 @@ public class TinkerBacktankRenderer extends KineticBlockEntityRenderer<TinkerBac
 		SuperByteBuffer shaft = CachedBuffers.partial(getShaftModel(blockState), blockState);
 		shaft.center()
 			.rotateYDegrees(180 + AngleHelper.horizontalAngle(blockState.getValue(BacktankBlock.HORIZONTAL_FACING)))
-			.rotate(AngleHelper.rad((time * be.getSpeed() * 3f / 10)% 360), Direction.UP)
+			.rotate(AngleHelper.rad(((time * be.getSpeed() * 3f / 10))% 360), Direction.UP)
 			.uncenter();
 		shaft.light(light)
 			.renderInto(ms, buffer.getBuffer(RenderType.cutout()));
 			
+		// Render the chestplate item visually attached to the block to differentiate from a normal backtank
+		ItemStack chestplate = be.getDroppedChestplate();
+		if (!chestplate.isEmpty()) {
+			ms.pushPose();
+			// Center on block, then rotate, then translate out from the front face
+			ms.translate(0.5, .55, 0.5); // Center of block, up
+			float yRot = 180 + AngleHelper.horizontalAngle(blockState.getValue(BacktankBlock.HORIZONTAL_FACING));
+			ms.mulPose(com.mojang.math.Axis.YP.rotationDegrees(yRot));
+			ms.translate(0, 0, -0.32); // Move out from the front face (negative Z after rotation)
+			ms.scale(1.2f, 1.23f, 2f);
+			Minecraft.getInstance().getItemRenderer().renderStatic(
+				chestplate,
+				ItemDisplayContext.FIXED,
+				light,
+				overlay,
+				ms,
+				buffer,
+				be.getLevel(),
+				0
+			);
+			ms.popPose();
+		}
 	}
 
 	@Override

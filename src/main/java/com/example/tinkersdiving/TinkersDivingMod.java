@@ -26,7 +26,6 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 
 import com.example.tinkersdiving.config.TinkersDivingConfig;
 import com.example.tinkersdiving.modifiers.TinkersDivingModifiers;
-// Modifier classes (stubs)
 import com.example.tinkersdiving.modifiers.abilities.armor.BacktankModifier;
 import com.example.tinkersdiving.modifiers.abilities.armor.DivingHelmetModifier;
 import com.example.tinkersdiving.modifiers.abilities.armor.DivingBootsModifier;
@@ -34,7 +33,7 @@ import com.example.tinkersdiving.modifiers.abilities.armor.DivingBootsModifier;
 @Mod(TinkersDivingMod.MODID)
 public class TinkersDivingMod {
     public static final String MODID = "tinkersdiving";
-    public static final String VERSION = "0.3.0.1";
+    public static final String VERSION = "1.0.0.1";
 
     public static final DeferredRegister<Block> BLOCKS =
         DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
