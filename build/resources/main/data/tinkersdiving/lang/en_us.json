@@ -8,8 +8,5 @@
     "modifier.tinkersdiving.diving_boots": "Diving Boots",
     "modifier.tinkersdiving.diving_boots.desc": "Allows for improved movement underwater, reducing drag, increasing speed, and allows walking on the bottom.",
     "modifier.tinkersdiving.diving_boots.flavor": "Like a Brick!",
-    "modifier.tinkersdiving.modifier_name": "Tinker's Diving Modifiers",
-    "modifier.tinkersdiving.modifier_description": "Adds Diving Helmet, Backtank, and Diving Boots modifiers to Tinkers’ armor, hooking into Create’s air & lava‐swim logic very jankily. Trust me, it can get a lot worse.",
-    "modifier.tinkersdiving.modifier_flavor": "Dive into the depths with Tinker's Diving Modifiers!",
-    "modifier.tinkersdiving.modifier_version": "0.1.4"
+    "modifier.tinkersdiving.diving_helmet.requirements": "Requires Aqua Affinity"
 }

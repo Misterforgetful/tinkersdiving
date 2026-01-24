@@ -1,7 +1,7 @@
 {
   "modifier.tinkersdiving": {
-    "backtank": "#BF3B22",
+    "backtank": "#bf5522",
     "diving_helmet": "#C7651A",
-    "diving_boots": "#8F3F11"
+    "diving_boots": "#da5a28"
   }
 }

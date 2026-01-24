@@ -1,20 +1,15 @@
 {
   "type": "tconstruct:modifier",
-  "tools": { "tag": "tconstruct:modifiable/armor/helmets" },
+  "tools": {"tag": "tconstruct:modifiable/armor/helmets" },
+  "check_trait_level": true,
   "inputs": [
-    { "item": "minecraft:glass" },
+    { "tag": "forge:glass/colorless" },
     { "item": "create:andesite_alloy" },
     { "item": "create:andesite_alloy" },
     { "item": "minecraft:copper_ingot" },
     { "item": "minecraft:copper_ingot" }
   ],
-  "requirements": [
-    {
-      "type": "modifier",
-      "modifier": "tconstruct:aqua_affinity",
-      "level": 1
-    }
-  ],
+  "level": 1,
   "result": "tinkersdiving:diving_helmet" ,
-  "slots": { "abilities": 1 }
+  "slots": { "upgrades": 1 }
 }
