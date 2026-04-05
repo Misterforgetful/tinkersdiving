@@ -1,8 +1,0 @@
-{
-  "modifier": "tinkersdiving:diving_helmet",
-  "name": "modifier.tinkersdiving.diving_helmet",
-  "description": "modifier.tinkersdiving.diving_helmet.desc",
-  "flavor": "modifier.tinkersdiving.diving_helmet.flavor",
-  "icon": "tinkersdiving:item/modifier/diving_helmet",
-  "slot": "armor.head"
-}

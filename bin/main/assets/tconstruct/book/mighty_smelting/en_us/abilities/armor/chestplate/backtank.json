@@ -5,6 +5,7 @@
       "text": "Is it safe to have this much air in this little space?"
     }
   ],
+  "more_text_space" : true,
   "effects": [
     "Power pneumatic tools",
     "Provides air for Diving Helmet",
