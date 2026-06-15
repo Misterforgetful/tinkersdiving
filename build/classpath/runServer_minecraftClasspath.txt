@@ -1,4 +1,4 @@
-C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\net\minecraftforge\forge\1.20.1-47.4.2_mapped_official_1.20.1\forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar
+C:\Users\Misterforgetful\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.2_mapped_official_1.20.1\forge-1.20.1-47.4.2_mapped_official_1.20.1-recomp.jar
 C:\Users\Misterforgetful\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
 C:\Users\Misterforgetful\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.4.2\994175f51bad6b9c32483c1b61d312bbb5941a49\fmlearlydisplay-1.20.1-47.4.2.jar
 C:\Users\Misterforgetful\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.2\69932762bf197a54e59c5beb40e2a796cb7b0344\javafmllanguage-1.20.1-47.4.2.jar

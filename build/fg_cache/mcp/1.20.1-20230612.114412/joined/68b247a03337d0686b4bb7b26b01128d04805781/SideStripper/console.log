@@ -1,9 +1,0 @@
-JVM:         C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin\java.exe
-JVM Args:    
-Run Args:    "--strip", "--input", "C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\mcp\1.20.1-20230612.114412\joined\68b247a03337d0686b4bb7b26b01128d04805781\AccessTransformer\output.jar", "--output", "C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\mcp\1.20.1-20230612.114412\joined\68b247a03337d0686b4bb7b26b01128d04805781\SideStripper\output.jar", "--data", "C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\mcp\1.20.1-20230612.114412\joined\68b247a03337d0686b4bb7b26b01128d04805781\SideStripper\string_data.sas"
-Classpath:   C:\Users\Misterforgetful\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.7\mergetool-1.1.7-fatjar.jar
-Working Dir: C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\mcp\1.20.1-20230612.114412\joined\68b247a03337d0686b4bb7b26b01128d04805781\SideStripper
-Main Class:  net.minecraftforge.mergetool.ConsoleMerger
-Input:  C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\mcp\1.20.1-20230612.114412\joined\68b247a03337d0686b4bb7b26b01128d04805781\AccessTransformer\output.jar
-Output: C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\mcp\1.20.1-20230612.114412\joined\68b247a03337d0686b4bb7b26b01128d04805781\SideStripper\output.jar
-Data:   C:\Users\Misterforgetful\Projects\tinkersdiving\build\fg_cache\mcp\1.20.1-20230612.114412\joined\68b247a03337d0686b4bb7b26b01128d04805781\SideStripper\string_data.sas
