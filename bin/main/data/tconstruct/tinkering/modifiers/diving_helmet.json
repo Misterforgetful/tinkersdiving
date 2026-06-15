@@ -10,18 +10,23 @@
         }
       ],
       "requirement": {
-        "type": "mantle:and",
-        "predicates": [
-          {
-            "type": "tconstruct:has_modifier",
-            "check": "all",
-            "modifier": {
-              "type": "tconstruct:single",
-              "modifier": "tconstruct:aqua_affinity"
-            }
-          }
-        ]
+        "type": "tconstruct:has_modifier",
+        "check": "all",
+        "level": {
+          "min": 1
+        },
+        "modifier": {
+          "type": "tconstruct:single",
+          "modifier": "tconstruct:aqua_affinity"
         }
+      },
+      "translation_key": "modifier.tinkersdiving.diving_helmet.requirements"
+    },
+    {
+      "type": "tconstruct.constant_enchantment",
+      "level": 1,
+      "enchantment": "minecraft:aqua_affinity"
     }
-    ]
+  ],
+  "tooltip_display": "always"
 }
