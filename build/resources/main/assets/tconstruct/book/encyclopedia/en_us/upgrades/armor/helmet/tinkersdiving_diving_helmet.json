@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tinkersdiving:diving_helmet",
+  "text": [
+    {
+      "text": "The depths are calling. Helmet now functions like the Diving Helmet from Create, working in conjuction with an air source to keep you alive."
+    }
+  ],
+  "more_text_space" : true,
+  "effects": [
+    "Breathe underwater with a Backtank",
+    "See underwater regardless",
+    "Extends effects when combined with Netherite"
+  ]
+}

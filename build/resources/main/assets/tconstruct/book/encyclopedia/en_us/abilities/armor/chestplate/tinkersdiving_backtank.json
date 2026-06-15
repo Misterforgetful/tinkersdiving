@@ -1,0 +1,15 @@
+{
+  "modifier_id": "tinkersdiving:backtank",
+  "text": [
+    {
+      "text": "Provides a pressurized air supply for breathing in inhospitable envirionments and powering pneumatic tools. Is is safe to have this much air in such a little space?"
+    }
+  ],
+  "more_text_space" : true,
+  "effects": [
+    "Maximum level of 6, for 2 continuous hours of air",
+    "Power pneumatic tools",
+    "Provides air for Diving Helmet",
+    "Extended effects when combined with Netherite"
+  ]
+}

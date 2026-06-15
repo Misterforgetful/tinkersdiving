@@ -1,8 +1,0 @@
-{
-    "variants": {
-    "facing=north": { "model": "tinkersdiving:block/tinker_backtank/tinker_backtank", "y": 0 },
-    "facing=south": { "model": "tinkersdiving:block/tinker_backtank/tinker_backtank", "y": 180 },
-    "facing=west":  { "model": "tinkersdiving:block/tinker_backtank/tinker_backtank", "y": 270 },
-    "facing=east":  { "model": "tinkersdiving:block/tinker_backtank/tinker_backtank", "y": 90 }
-  }
-}
