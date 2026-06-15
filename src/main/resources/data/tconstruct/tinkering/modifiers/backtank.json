@@ -1,0 +1,9 @@
+{
+  "level_display": { 
+    "type": "tconstruct:unique",
+    "first_unique": false,
+    "unique_until": 6
+  },
+
+  "tooltip_display": "always"
+}

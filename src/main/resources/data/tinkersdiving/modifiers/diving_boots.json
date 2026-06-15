@@ -1,0 +1,8 @@
+{
+  "modifier": "tinkersdiving:diving_boots",
+  "name": "modifier.tinkersdiving.diving_boots",
+  "description": "modifier.tinkersdiving.diving_boots.desc",
+  "flavor": "modifier.tinkersdiving.diving_boots.flavor",
+  "levels": "no_levels",
+  "slot": "armor.feet"
+}
